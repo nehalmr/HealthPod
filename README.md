@@ -1,4 +1,4 @@
-# HealthPod
+# HealthPod (IoT Healthcare Module)
 
 ![IoT Animation](https://media.giphy.com/media/3o7TKzWJ4kWfS3KfKo/giphy.gif)
 
