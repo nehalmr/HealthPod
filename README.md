@@ -1,0 +1,51 @@
+HealthPod
+!HealthPod Logo
+
+HealthPod is an IoT-based healthcare monitoring system developed using ESP8266, DS18B20, Pulse Sensor, and integrated with Thingspeak and Flutter UI. This project aims to provide real-time health monitoring and data visualization.
+
+Features
+Temperature Monitoring: Uses DS18B20 sensor to measure body temperature.
+Pulse Monitoring: Uses Pulse Sensor to measure heart rate.
+IoT Integration: Data is sent to Thingspeak for real-time monitoring.
+Mobile App: Flutter-based UI for easy access and visualization of health data.
+Tech Stack
+!Tech Stack
+
+Components
+ESP8266: Microcontroller for IoT integration.
+DS18B20: Temperature sensor.
+Pulse Sensor: Heart rate sensor.
+Thingspeak: IoT platform for data collection and visualization.
+Flutter: Framework for building the mobile application.
+Installation
+Clone the repository:
+git clone https://github.com/nehalmr/HealthPod.git
+cd HealthPod
+
+Set up the hardware:
+Connect the DS18B20 and Pulse Sensor to the ESP8266 as per the circuit diagram provided in the repository.
+Configure Thingspeak:
+Create an account on Thingspeak and set up a new channel.
+Note down the API keys and channel ID.
+Upload the code:
+Open the Arduino IDE.
+Install the necessary libraries (ESP8266, DallasTemperature, OneWire, etc.).
+Update the WiFi credentials and Thingspeak API keys in the code.
+Upload the code to the ESP8266.
+Run the Flutter app:
+Navigate to the flutter_app directory.
+Run the following commands:
+flutter pub get
+flutter run
+
+Usage
+Monitoring: Once the hardware is set up and the code is running, the sensors will start collecting data.
+Visualization: Open the Flutter app to view real-time data. You can also log in to Thingspeak to see the data charts.
+Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgements
+Special thanks to the open-source community for providing the necessary libraries and tools.
