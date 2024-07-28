@@ -1,6 +1,6 @@
 # HealthPod (IoT Healthcare Module)
 
-![Youtube Link:](https://youtu.be/FqP-QcRfrv0?feature=shared)
+https://youtu.be/FqP-QcRfrv0?feature=shared
 
 
 HealthPod is an IoT-based healthcare monitoring system developed using ESP8266, DS18B20, Pulse Sensor, and integrated with Thingspeak and Flutter UI. This project aims to provide real-time health monitoring and data visualization.
